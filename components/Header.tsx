@@ -23,7 +23,7 @@ const Header: FC = () => {
     },
     {
       title: "projects",
-      link: "#projects",
+      link: "#project",
     },
     {
       title: "contact me",
@@ -58,13 +58,12 @@ const Header: FC = () => {
 
   return (
     <header
-      className={`flex items-center px-[6rem] h-[8rem] z-30  ${
+      className={`flex items-center px-[6rem] smd:px-[2.5rem] h-[8rem] z-30  ${
         ctx?.headerStick
           ? "bg-color-light-blue fixed top-0 right-0 left-0 opacity-90 smd:opacity-100"
           : "bg-color-transparent "
       } transition-all duration-200 ease-in `}
     >
-      <HiOutlineMenuAlt2 onClick={displayMenuHandler} className={"hidden"} />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -80,24 +79,28 @@ const Header: FC = () => {
           className="w-[2rem] h-[2rem] rounded-full"
         />
       </motion.div>
-      <motion.h1
+      <motion.a
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeIn" }}
         className={"text-[2.5rem] text-color-white"}
+        href="#"
       >
         EJIM
-      </motion.h1>
+      </motion.a>
       <nav
         onClick={displayMenuHandler}
-        className={`${menuVisible ? "" : ""} flex items-center ml-[3rem]`}
+        className={`${
+          menuVisible
+            ? " flex smd:translate-x-0 smd:opacity-100"
+            : "smd:opacity-0 smd:-translate-x-[100%]  flex"
+        }  items-center ml-[3rem] flex-1 smd:fixed smd:top-0 smd:left-0 smd:right-0 smd:bottom-0 smd:bg-color-black-trans  smd:ml-0 smd:z-50 smd:items-stretch transition-all duration-200 ease-in-out `}
       >
-        <FaTimes className={"hidden"} />
         <motion.ul
           variants={list}
           initial={"hide"}
           animate={"show"}
-          className="flex  items-center"
+          className="flex flex-1  items-center smd:flex-col smd:bg-color-light-blue smd:flex-[0.75] smd:py-[3rem] smd:items-start "
         >
           {mediaLinks.map((link: { title: string; link: string }) => (
             <motion.li
@@ -107,21 +110,40 @@ const Header: FC = () => {
             >
               <Link
                 href={link.link}
-                className={`text-color-white capitalize mr-[2rem] text-[1.8rem] ${
+                className={`text-color-white capitalize mr-[2rem] text-[1.8rem] smd:px-[2rem] smd:mr-0 smd:py-[1rem] smd:block ${
                   ctx?.headerStick
-                    ? "hover:text-bg-color"
-                    : "hover:text-color-light-blue"
+                    ? "hover:text-bg-color smd:hover:text-color-white"
+                    : "hover:text-color-light-blue smd:hover:text-color-white"
                 }  transition-all duration-200 ease-in`}
               >
                 {link.title}
               </Link>
             </motion.li>
           ))}
+          <div
+            className={
+              "ml-auto flex  items-center  smd:ml-0  smd:pb-[3rem] smd:mt-auto"
+            }
+          >
+            <MediaLinks />
+          </div>
         </motion.ul>
+        {menuVisible && (
+          <FaTimes
+            className={
+              "hidden smd:flex text-color-white ml-auto w-[2.8rem] h-[2.8rem] mt-[2rem] mr-[2rem] "
+            }
+          />
+        )}
       </nav>
-      <div className={"ml-auto flex"}>
-        <MediaLinks />
-      </div>
+      {!menuVisible && (
+        <HiOutlineMenuAlt2
+          onClick={displayMenuHandler}
+          className={
+            "hidden smd:flex text-color-white ml-auto w-[2.8rem] h-[2.8rem]"
+          }
+        />
+      )}
     </header>
   );
 };

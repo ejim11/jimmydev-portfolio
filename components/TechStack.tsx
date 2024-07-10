@@ -19,11 +19,11 @@ const TechStack = () => {
   ];
   return (
     <div
-      className="w-[45%] text-color-text-1 text-[1.8rem] text-justify py-[3rem]"
+      className="w-[45%] text-color-text-1 text-[1.8rem] text-justify py-[3rem] md:w-full"
       id="technologies"
     >
       <Card heading={"Tech Stack"}>
-        <div className="flex flex-wrap mt-[2rem]">
+        <div className="flex flex-wrap mt-[2rem] md:justify-center">
           {stacks.map((stack: string, i) => (
             <motion.p
               initial={{ opacity: 0, y: 30 }}

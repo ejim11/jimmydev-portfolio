@@ -8,9 +8,9 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="px-[6rem] flex flex-col w-full ">
+    <div className="px-[6rem] smd:px-[2.5rem] flex flex-col w-full ">
       <Introduction />
-      <div className="flex w-full justify-between">
+      <div className="flex w-full justify-between md:flex-col md:items-center">
         <AboutMe />
         <TechStack />
       </div>

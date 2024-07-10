@@ -7,9 +7,10 @@ const Card: React.FC<{
   heading: string;
   text?: string;
   style?: string;
-}> = ({ style, heading, text, children }) => {
+  container?: string;
+}> = ({ style, heading, text, children, container }) => {
   return (
-    <div className={`flex flex-col items-center w-full `} id="projects">
+    <div className={`flex flex-col items-center w-full  `} id="projects">
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -39,7 +40,7 @@ const Card: React.FC<{
           {text}
         </motion.p>
       )}
-      <div className="w-full">{children}</div>
+      <div className={`w-full ${container}`}>{children}</div>
     </div>
   );
 };

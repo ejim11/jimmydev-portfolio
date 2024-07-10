@@ -7,10 +7,13 @@ import { motion } from "framer-motion";
 const AboutMe = () => {
   return (
     <div
-      className="w-[45%] text-color-text-1 text-[1.8rem] text-justify py-[3rem]"
+      className="w-[45%] text-color-text-1 text-[1.8rem] text-justify py-[3rem] xlg:w-[48%] md:w-full md:flex md:flex-col md:items-center"
       id="about"
     >
-      <Card heading={"About me"}>
+      <Card
+        heading={"About me"}
+        container="md:flex md:flex-col md:items-center"
+      >
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +42,7 @@ const AboutMe = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, ease: "easeIn", delay: 0.2 }}
           viewport={{ once: false }}
-          className="mt-[2rem] flex items-center"
+          className="mt-[2rem] flex items-center md:mx-auto"
         >
           <a
             href={"../files/Favour Ejim (Software Engineer).pdf"}

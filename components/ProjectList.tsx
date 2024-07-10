@@ -26,7 +26,7 @@ const ProjectList = () => {
       viewport={{ once: false }}
       key={item.id}
       className={
-        "w-[40rem] border border-gradient mb-[4rem] text-color-text-1 text-center pb-[4rem] flex flex-col justify-start"
+        "w-[40rem] border border-gradient mb-[4rem] text-color-text-1 text-center pb-[4rem] flex flex-col justify-start mr-[2rem] xmd:mr-0 xmd:w-[80%] smd-[90%] sm:w-full"
       }
     >
       <div className="w-full">
@@ -64,7 +64,7 @@ const ProjectList = () => {
           </div>
         </div>
       </div>
-      <div className="flex   justify-evenly mt-auto ">
+      <div className="flex justify-evenly mt-auto ">
         {item.visit && (
           <a
             href={item.visit}
@@ -91,7 +91,7 @@ const ProjectList = () => {
   ));
 
   return (
-    <div className="flex flex-wrap justify-between mt-[4rem]">
+    <div className="flex flex-wrap justify-between mt-[4rem] xmd:justify-center">
       {projectsList}
     </div>
   );

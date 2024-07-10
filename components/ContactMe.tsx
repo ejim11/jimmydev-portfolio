@@ -14,7 +14,7 @@ const ContactMe = () => {
       className="w-full mb-[5rem] "
     >
       <Card heading={"Contact Me"}>
-        <div className="bg-color-text-1 w-[50%] mx-auto p-[5rem] mt-[3rem] border-gradient border-[0.2rem]">
+        <div className="bg-color-text-1 w-[50%] 2xl:w-[65%] xmd:w-[80%] smd:w-full mx-auto p-[5rem] smd:p-[3rem] sm:px-[1.5rem] mt-[3rem] border-gradient border-[0.2rem]">
           <ContactForm />
         </div>
       </Card>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: "The portfolio of the sofware engineer Ejim Favour.",
     type: "website",
     url: "https://www.jimmy-dev.me",
-    images: [{ url: "https://i.ibb.co/9t3jm5n/ejim.jpg" }],
+    images: [{ url: "https://i.ibb.co/4t2Zh14/IMG-0247.jpg" }],
   },
 };
 

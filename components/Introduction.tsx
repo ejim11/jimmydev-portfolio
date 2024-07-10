@@ -20,9 +20,9 @@ const Introduction = () => {
       onViewportLeave={leaveViewportHandler}
       onViewportEnter={enterViewportHandler}
       viewport={{ margin: "0px 0px 0px 0px" }}
-      className="flex justify-between items-center py-[5rem]"
+      className="flex justify-between items-center py-[5rem] xlg:flex-col "
     >
-      <div className="w-[45%] flex flex-col items-start">
+      <div className="w-[45%] flex flex-col items-start 2xl:w-[50%] xlg:w-full xlg:text-center xlg:items-center">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -35,7 +35,7 @@ const Introduction = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.3, ease: "easeIn", delay: 0.1 }}
-          className={"text-color-white text-[4rem] my-[1rem]"}
+          className={"text-color-white text-[4rem] my-[1rem] sm:text-[3rem]"}
         >
           EJIM
         </motion.p>
@@ -43,7 +43,7 @@ const Introduction = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.3, ease: "easeIn", delay: 0.2 }}
-          className="text-gradient  text-[6rem]"
+          className="text-gradient  text-[6rem] smd:text-[5rem] sm:text-[4rem]"
         >
           Software Engineer
         </motion.h1>
@@ -51,7 +51,9 @@ const Introduction = () => {
           initial={{ opacity: 0, y: "30" }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, ease: "easeIn", delay: 0.3 }}
-          className={"text-[hsla(0,0%,100%,.5)] text-[1.8rem] my-[1rem]"}
+          className={
+            "text-[hsla(0,0%,100%,.5)] text-[1.8rem] my-[1rem] smd:text-justify"
+          }
         >
           I create exquisite creations with a fervent passion for software
           engineering and its practical applications. With an eye for detail, I
@@ -60,7 +62,7 @@ const Introduction = () => {
           functional but also beautifully refined.
         </motion.p>
       </div>
-      <div className="w-[45%]">
+      <div className="w-[45%] 2xl:w-[42%] xlg:w-[80%] smd:hidden">
         <SvgAnimation />
       </div>
     </motion.section>

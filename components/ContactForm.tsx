@@ -101,7 +101,7 @@ const ContactForm = () => {
         label="Email"
         pl="pl-[1rem]"
         labelTextColor="text-color-white"
-        containerWidth="w-[45%] smd:w-[48%] sm:w-full"
+        containerWidth="w-full"
         validation={registrationOption.email}
         border="border-0"
       />
@@ -114,11 +114,11 @@ const ContactForm = () => {
         pl="pl-[1rem]"
         label="Phone Number"
         labelTextColor="text-color-white"
-        containerWidth="w-[45%] smd:w-[48%] sm:w-full"
+        containerWidth="w-full"
         validation={registrationOption.phoneNumber}
         border="border-0"
       />
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <label className="mb-[0.5rem] text-color-white">Message</label>
         <textarea
           rows={6}
