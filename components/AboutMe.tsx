@@ -45,7 +45,9 @@ const AboutMe = () => {
           className="mt-[2rem] flex items-center md:mx-auto"
         >
           <a
-            href={"../files/Favour Ejim (Software Engineer).pdf"}
+            href={
+              "https://drive.google.com/file/d/1HxGuWXkz6orJ7YHBsTgBgARfWhQpVspv/view?usp=sharing"
+            }
             target="blank"
             download
             className="block text-color-light-blue py-[.5rem] px-[1.5rem] border border-gradient  rounded-md hover:bg-color-light-blue hover:text-color-white transition-all duration-200 ease-in"

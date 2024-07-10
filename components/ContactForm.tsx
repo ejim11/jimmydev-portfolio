@@ -80,7 +80,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <InputComponent
-        placeholder={"Lionel Messi"}
+        placeholder={"Frank Edwards"}
         type={"text"}
         register={register}
         error={errors}
@@ -93,7 +93,7 @@ const ContactForm = () => {
         border="border-0"
       />
       <InputComponent
-        placeholder={"thegoat@gmail.com"}
+        placeholder={"frank@gmail.com"}
         type={"email"}
         register={register}
         error={errors}
