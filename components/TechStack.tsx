@@ -16,6 +16,8 @@ const TechStack = () => {
     "Flutter",
     "Solidity",
     "Firebase",
+    "Mongo db",
+    "Postgresql",
   ];
   return (
     <div
