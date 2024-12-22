@@ -53,7 +53,7 @@ const ProjectsData = [
     title: "Qrest",
     text: "Qrest software development company website",
     techs: ["Next Js", "Typescript", "Tailwind Css"],
-    visit: "https://qrest-qtnj.vercel.app/",
+    visit: "https://qrest.ng",
     source: "https://github.com/ejim11/qrest",
     imgs: [qrest1, qrest2, qrest3, qrest4],
   },
