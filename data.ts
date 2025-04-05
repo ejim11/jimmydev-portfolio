@@ -46,6 +46,10 @@ import qrest1 from "./assets/qrest-1.png";
 import qrest2 from "./assets/qrest-2.png";
 import qrest3 from "./assets/qrest-3.png";
 import qrest4 from "./assets/qrest-4.png";
+import brackifiInvestor1 from "./assets/brackifi-investor-1.png";
+import brackifiInvestor2 from "./assets/brackifi-investor-2.png";
+import brackifiInvestor3 from "./assets/brackifi-investor-3.png";
+import brackifiInvestor4 from "./assets/brackifi-investor-4.png";
 
 const ProjectsData = [
   {
@@ -76,7 +80,7 @@ const ProjectsData = [
     imgs: [ticketHive1, ticketHive2, ticketHive3, ticketHive4, ticketHive5],
   },
   {
-    id: "4",
+    id: "3",
     title: "Spotlx",
     text: "Spotlx is a laundry app in Enugu, Nigeria. Users can order for different laundry services from anywhere in the enugu city.",
     techs: ["React Native", "Reduxjs/toolkit", "Firebase"],
@@ -85,16 +89,27 @@ const ProjectsData = [
     imgs: [spotlx1, spotlx2, spotlx3, spotlx4, spotlx5, spotlx6, spotlx7],
   },
   {
-    id: "8",
-    title: "Techan Web App",
-    text: "Techan is a start up company with its main product 'PAPERLX'. It's aim is to make credentials and cerificates of individuals stored on the blockchain for easy accessibilty and verification",
-    techs: ["React Js", "Tailwind Css", "Context-api", "Firebase"],
-    visit: "https://techan.io/",
+    id: "4",
+    title: "Brackifi Investor",
+    text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
+    techs: [
+      "Next js",
+      "Tailwind Css",
+      "Reduxjs/toolkit",
+      "Node js",
+      "Mongo DB",
+    ],
+    visit: "https://www.brackifi-investor.io",
     source: "",
-    imgs: [techanImg1, techanImg2, techanImg3, techanImg4, techanImg5],
+    imgs: [
+      brackifiInvestor1,
+      brackifiInvestor2,
+      brackifiInvestor3,
+      brackifiInvestor4,
+    ],
   },
   {
-    id: "3",
+    id: "5",
     title: "Blockview",
     text: "A library on blockchain, the web3 and its applications. It also contains a cool explorer that can be used to query the Ethereum computer for block and transaction details",
     techs: [
@@ -110,7 +125,7 @@ const ProjectsData = [
   },
 
   {
-    id: "5",
+    id: "6",
     title: "Note taker",
     text: "Note taker is a simple note taking app that stores your notes per day and in different custom categories.",
     techs: ["Flutter", "Riverpod"],
@@ -127,7 +142,7 @@ const ProjectsData = [
     ],
   },
   {
-    id: "6",
+    id: "7",
     title: "Xwager",
     text: "Xwager is an app built for football fantasy fans. Users can wager against each other in pairs or groups",
     techs: ["Flutter", "Riverpod", "Laravel"],
@@ -137,7 +152,7 @@ const ProjectsData = [
   },
 
   {
-    id: "7",
+    id: "8",
     title: "Audiophile",
     text: " An e-commerce website for audio devices like headphones, speakers and earphones. Users can register and login or buy products as visitors",
     techs: ["React Js", "Scss", "Reduxjs/toolkit"],
@@ -154,25 +169,6 @@ const ProjectsData = [
       audiophile8,
     ],
   },
-
-  //   {
-  //     id: "3",
-  //     title: "Escrow Dapp",
-  //     text: " A simple escrow decentralized application that mediates transactions between untrusted parties",
-  //     techs: ["React Js", "Tailwind Css", "Reduxjs/toolkit", "Solidity"],
-  //     visit: "https://escrow-dapp-2vhxykfmj-ejim11.vercel.app/",
-  //     source: "https://github.com/ejim11/escrow-dapp",
-  //     imgs: [techanImg1, techanImg2, techanImg3, techanImg4],
-  //   },
-  //   {
-  //     id: "9",
-  //     title: "ERC-20 Token Indexer",
-  //     text: "A token indexer for ERC-20 tokens. It queries the ethereum computer through Alchemy enhanced api to get the list of erc-20 tokens for a given address",
-  //     techs: ["Typescript", "React Js", "Tailwind Css", "Alchemy SDK"],
-  //     visit: "https://erc-20-token-indexer-psi.vercel.app/",
-  //     source: "https://github.com/ejim11/erc-20-Token-Indexer",
-  //     imgs: [techanImg1, techanImg2, techanImg3, techanImg4],
-  //   },
 ];
 
 export default ProjectsData;
