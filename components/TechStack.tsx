@@ -34,7 +34,7 @@ const TechStack = () => {
               transition={{ duration: 0.3, ease: "easeIn", delay: i / 10 }}
               viewport={{ once: false }}
               key={stack}
-              className="mr-[2rem] px-[1.5rem] py-[.5rem] mb-[2rem] text-transparent border rounded-md border-gradient capitalize"
+              className="mr-[2rem] px-[1.5rem] text-color-text-1 py-[.5rem] mb-[2rem]  border rounded-md border-gradient capitalize"
             >
               {stack}
             </motion.p>
