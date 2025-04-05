@@ -7,21 +7,6 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily: {
-      spaceGrotesk: ["var(--font-spaceGrotesk)"],
-    },
-    colors: {
-      "color-primary": "rgb(242, 245, 247)",
-      "bg-color": "#0f0c1f",
-      "color-light-blue": "rgb(30, 129, 176)",
-      "color-white": "#ffffff",
-      "color-black": "#000000",
-      "color-red": "#ff6b6b",
-      "color-text": {
-        1: "rgba(255, 255, 255, 0.5)",
-      },
-      "color-black-trans": "rgba(0, 0, 0, 0.5)",
-    },
     screens: {
       "2xl": { max: "1300px" },
       // => @media (max-width: 1300px) { ... }
@@ -40,7 +25,23 @@ const config: Config = {
       ssm: { max: "300px" },
       // => @media (max-width: 500px) { ... }
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        spaceGrotesk: ["var(--font-spaceGrotesk)"],
+      },
+      colors: {
+        "color-primary": "rgb(242, 245, 247)",
+        "bg-color": "#0f0c1f",
+        "color-light-blue": "rgb(30, 129, 176)",
+        "color-white": "#ffffff",
+        "color-black": "#000000",
+        "color-red": "#ff6b6b",
+        "color-text": {
+          1: "rgba(255, 255, 255, 0.5)",
+        },
+        "color-black-trans": "rgba(0, 0, 0, 0.5)",
+      },
+    },
   },
   plugins: [],
 };
