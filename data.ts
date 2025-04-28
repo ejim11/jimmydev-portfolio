@@ -50,6 +50,10 @@ import brackifiInvestor1 from "./assets/brackifi-investor-1.png";
 import brackifiInvestor2 from "./assets/brackifi-investor-2.png";
 import brackifiInvestor3 from "./assets/brackifi-investor-3.png";
 import brackifiInvestor4 from "./assets/brackifi-investor-4.png";
+import nich1 from "./assets/nich-1.png";
+import nich2 from "./assets/nich-2.png";
+import nich3 from "./assets/nich-3.png";
+import nich4 from "./assets/nich-4.png";
 
 const ProjectsData = [
   {
@@ -90,6 +94,15 @@ const ProjectsData = [
   },
   {
     id: "4",
+    title: "Nich Fashion",
+    text: "Nich fashion is an e-commerce web app for fashionable wears",
+    techs: ["Next Js", "Typescript", "Tailwind Css", "Nest js", "Postgresql"],
+    visit: "https://nich-fashion.vercel.app/",
+    source: "https://github.com/ejim11/nich-fashion",
+    imgs: [nich1, nich2, nich3, nich4],
+  },
+  {
+    id: "5",
     title: "Brackifi Investor",
     text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
     techs: [
@@ -109,7 +122,7 @@ const ProjectsData = [
     ],
   },
   {
-    id: "5",
+    id: "6",
     title: "Blockview",
     text: "A library on blockchain, the web3 and its applications. It also contains a cool explorer that can be used to query the Ethereum computer for block and transaction details",
     techs: [
@@ -125,7 +138,7 @@ const ProjectsData = [
   },
 
   {
-    id: "6",
+    id: "7",
     title: "Note taker",
     text: "Note taker is a simple note taking app that stores your notes per day and in different custom categories.",
     techs: ["Flutter", "Riverpod"],
@@ -142,7 +155,7 @@ const ProjectsData = [
     ],
   },
   {
-    id: "7",
+    id: "8",
     title: "Xwager",
     text: "Xwager is an app built for football fantasy fans. Users can wager against each other in pairs or groups",
     techs: ["Flutter", "Riverpod", "Laravel"],
@@ -152,7 +165,7 @@ const ProjectsData = [
   },
 
   {
-    id: "8",
+    id: "9",
     title: "Audiophile",
     text: " An e-commerce website for audio devices like headphones, speakers and earphones. Users can register and login or buy products as visitors",
     techs: ["React Js", "Scss", "Reduxjs/toolkit"],
