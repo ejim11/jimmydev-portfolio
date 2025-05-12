@@ -54,6 +54,19 @@ import nich1 from "./assets/nich-1.png";
 import nich2 from "./assets/nich-2.png";
 import nich3 from "./assets/nich-3.png";
 import nich4 from "./assets/nich-4.png";
+import oma1 from "./assets/oma-1.png";
+import oma2 from "./assets/oma-2.png";
+import oma3 from "./assets/oma-3.png";
+import oma4 from "./assets/oma-4.png";
+import oma5 from "./assets/oma-5.png";
+import oma6 from "./assets/oma-6.png";
+import herb1 from "./assets/herb-1.png";
+import herb2 from "./assets/herb-2.png";
+import herb3 from "./assets/herb-3.png";
+import herb4 from "./assets/herb-4.png";
+import herb5 from "./assets/herb-5.png";
+import herb6 from "./assets/herb-6.png";
+import herb7 from "./assets/herb-7.png";
 
 const ProjectsData = [
   {
@@ -67,24 +80,6 @@ const ProjectsData = [
   },
   {
     id: "1",
-    title: "Brackifi",
-    text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
-    techs: ["Next Js", "Typescript", "Tailwind Css", "Node Js", "Mongo db"],
-    visit: "https://www.brackifi.io/",
-    source: "",
-    imgs: [brackifi1, brackifi2, brackifi3, brackifi4],
-  },
-  {
-    id: "2",
-    title: "Ticket Hive",
-    text: "Ticket hive is a ticketting company that provides a beautiful platform for people to get tickets to their favorite events. ",
-    techs: ["Typescript", "Next js", "Tailwind Css", "Nest js", "Postgresql"],
-    visit: "https://ticket-hive-clone.vercel.app/",
-    source: "",
-    imgs: [ticketHive1, ticketHive2, ticketHive3, ticketHive4, ticketHive5],
-  },
-  {
-    id: "3",
     title: "Spotlx",
     text: "Spotlx is a laundry app in Enugu, Nigeria. Users can order for different laundry services from anywhere in the enugu city.",
     techs: ["React Native", "Reduxjs/toolkit", "Firebase"],
@@ -93,7 +88,34 @@ const ProjectsData = [
     imgs: [spotlx1, spotlx2, spotlx3, spotlx4, spotlx5, spotlx6, spotlx7],
   },
   {
+    id: "2",
+    title: "Brackifi",
+    text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
+    techs: ["Next Js", "Typescript", "Tailwind Css", "Node Js", "Mongo db"],
+    visit: "https://www.brackifi.io/",
+    source: "",
+    imgs: [brackifi1, brackifi2, brackifi3, brackifi4],
+  },
+  {
+    id: "3",
+    title: "Ticket Hive",
+    text: "Ticket hive is a ticketting company that provides a beautiful platform for people to get tickets to their favorite events. ",
+    techs: ["Typescript", "Next js", "Tailwind Css", "Nest js", "Postgresql"],
+    visit: "https://ticket-hive-clone.vercel.app/",
+    source: "",
+    imgs: [ticketHive1, ticketHive2, ticketHive3, ticketHive4, ticketHive5],
+  },
+  {
     id: "4",
+    title: "Omalicha Kitchen",
+    text: "Omalicha Kitchen is an african restaurant in Texas, USA.",
+    techs: ["Typescript", "Next js", "Tailwind Css"],
+    visit: "https://omalicha-kitchen.vercel.app/",
+    source: "https://github.com/ejim11/Omalicha-kitchen",
+    imgs: [oma1, oma2, oma3, oma4, oma5, oma6],
+  },
+  {
+    id: "5",
     title: "Nich Fashion",
     text: "Nich fashion is an e-commerce web app for fashionable wears",
     techs: ["Next Js", "Typescript", "Tailwind Css", "Nest js", "Postgresql"],
@@ -102,7 +124,16 @@ const ProjectsData = [
     imgs: [nich1, nich2, nich3, nich4],
   },
   {
-    id: "5",
+    id: "6",
+    title: "Herbology",
+    text: "Herbology is a web app for a company that sells medicinal herbs",
+    techs: ["Next Js", "Typescript", "Tailwind Css"],
+    visit: "https://herbology.vercel.app/",
+    source: "https://github.com/ejim11/herbology",
+    imgs: [herb1, herb2, herb3, herb4, herb5, herb6, herb7],
+  },
+  {
+    id: "7",
     title: "Brackifi Investor",
     text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
     techs: [
@@ -122,23 +153,7 @@ const ProjectsData = [
     ],
   },
   {
-    id: "6",
-    title: "Blockview",
-    text: "A library on blockchain, the web3 and its applications. It also contains a cool explorer that can be used to query the Ethereum computer for block and transaction details",
-    techs: [
-      "Typescript",
-      "Next Js",
-      "Tailwind Css",
-      "Reduxjs/toolkit",
-      "Alchemy SDK",
-    ],
-    visit: "https://blockview.vercel.app/",
-    source: "https://github.com/ejim11/Blockview",
-    imgs: [blockview1, blockview2, blockview3],
-  },
-
-  {
-    id: "7",
+    id: "8",
     title: "Note taker",
     text: "Note taker is a simple note taking app that stores your notes per day and in different custom categories.",
     techs: ["Flutter", "Riverpod"],
@@ -152,34 +167,6 @@ const ProjectsData = [
       notetaker4,
       notetaker5,
       notetaker6,
-    ],
-  },
-  {
-    id: "8",
-    title: "Xwager",
-    text: "Xwager is an app built for football fantasy fans. Users can wager against each other in pairs or groups",
-    techs: ["Flutter", "Riverpod", "Laravel"],
-    visit: "",
-    source: "",
-    imgs: [xwager1, xwager2, xwager3, xwager4, xwager5, xwager6],
-  },
-
-  {
-    id: "9",
-    title: "Audiophile",
-    text: " An e-commerce website for audio devices like headphones, speakers and earphones. Users can register and login or buy products as visitors",
-    techs: ["React Js", "Scss", "Reduxjs/toolkit"],
-    visit: "https://audiophile-app.vercel.app/",
-    source: "https://github.com/ejim11/audiophile-app",
-    imgs: [
-      audiophile1,
-      audiophile2,
-      audiophile3,
-      audiophile4,
-      audiophile5,
-      audiophile6,
-      audiophile7,
-      audiophile8,
     ],
   },
 ];
