@@ -97,6 +97,15 @@ const ProjectsData = [
     imgs: [brackifi1, brackifi2, brackifi3, brackifi4],
   },
   {
+    id: "6",
+    title: "Herbology",
+    text: "Herbology is a web app for a company that sells medicinal herbs",
+    techs: ["Next Js", "Typescript", "Tailwind Css"],
+    visit: "https://www.myherbology.net/",
+    source: "https://github.com/ejim11/herbology",
+    imgs: [herb1, herb2, herb3, herb4, herb5, herb6, herb7],
+  },
+  {
     id: "3",
     title: "Ticket Hive",
     text: "Ticket hive is a ticketting company that provides a beautiful platform for people to get tickets to their favorite events. ",
@@ -123,15 +132,7 @@ const ProjectsData = [
     source: "https://github.com/ejim11/nich-fashion",
     imgs: [nich1, nich2, nich3, nich4],
   },
-  {
-    id: "6",
-    title: "Herbology",
-    text: "Herbology is a web app for a company that sells medicinal herbs",
-    techs: ["Next Js", "Typescript", "Tailwind Css"],
-    visit: "https://herbology.vercel.app/",
-    source: "https://github.com/ejim11/herbology",
-    imgs: [herb1, herb2, herb3, herb4, herb5, herb6, herb7],
-  },
+
   {
     id: "7",
     title: "Brackifi Investor",
