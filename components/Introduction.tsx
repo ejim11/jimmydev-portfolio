@@ -45,7 +45,7 @@ const Introduction = () => {
           transition={{ duration: 0.3, ease: "easeIn", delay: 0.2 }}
           className="text-gradient  text-[6rem] smd:text-[5rem] sm:text-[4rem]"
         >
-          Software Engineer
+          Software Developer
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: "30" }}
