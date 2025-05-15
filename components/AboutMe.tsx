@@ -46,7 +46,7 @@ const AboutMe = () => {
         >
           <a
             href={
-              "https://drive.google.com/file/d/14qcCADzQpXvY9WECHi3g3gxQM5Wm0oRv/view?usp=sharing"
+              "https://drive.google.com/file/d/1wcOsXPnjJZSdNDju826LeR67f39b8z0s/view?usp=sharing"
             }
             target="blank"
             download
