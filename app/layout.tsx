@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   openGraph: {
     description: "The portfolio of the sofware engineer Ejim Favour.",
     type: "website",
-    // url: "https://www.jimmy-dev.me",
-    // images: [{ url: "https://i.ibb.co/4t2Zh14/IMG-0247.jpg" }],
+    url: "https://jimmydev-portfolio.vercel.app/",
+    images: [{ url: "https://i.ibb.co/4t2Zh14/IMG-0247.jpg" }],
   },
 };
 
