@@ -1,10 +1,10 @@
 "use client";
+import React from "react";
 import AboutMe from "@/components/AboutMe";
 import ContactMe from "@/components/ContactMe";
 import Introduction from "@/components/Introduction";
 import Projects from "@/components/Projects";
 import TechStack from "@/components/TechStack";
-import React from "react";
 
 export default function Home() {
   return (
