@@ -1,5 +1,6 @@
 "use client";
 // import { HashLink as Link } from "react-router-hash-link";
+import React from "react";
 import MediaLinks from "./MediaLinks";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";

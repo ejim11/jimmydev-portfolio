@@ -1,5 +1,6 @@
+"use client";
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 const Card: React.FC<{
   children: ReactNode;
