@@ -16,15 +16,15 @@ const spaceGrotesk: NextFontWithVariable = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.jimmy-dev.me"),
+  metadataBase: new URL("https://jimmydev-portfolio.vercel.app/"),
   title: "Ejims Portfolio",
   description: "The portfolio of the sofware engineer Ejim Favour.",
   authors: [{ name: "Ejim Favour" }],
   openGraph: {
     description: "The portfolio of the sofware engineer Ejim Favour.",
     type: "website",
-    url: "https://www.jimmy-dev.me",
-    images: [{ url: "https://i.ibb.co/4t2Zh14/IMG-0247.jpg" }],
+    // url: "https://www.jimmy-dev.me",
+    // images: [{ url: "https://i.ibb.co/4t2Zh14/IMG-0247.jpg" }],
   },
 };
 
