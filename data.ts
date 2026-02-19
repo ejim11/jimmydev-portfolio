@@ -67,6 +67,13 @@ import herb4 from "./assets/herb-4.png";
 import herb5 from "./assets/herb-5.png";
 import herb6 from "./assets/herb-6.png";
 import herb7 from "./assets/herb-7.png";
+import vendorizeme1 from "./assets/vendorizeme-1.png";
+import vendorizeme2 from "./assets/vendorizeme-2.png";
+import vendorizeme3 from "./assets/vendorizeme-3.png";
+import vendorizeme4 from "./assets/vendorizeme-4.png";
+import venapp1 from "./assets/venapp-1.png";
+import venapp2 from "./assets/venapp-2.jpg";
+import venapp3 from "./assets/venapp-3.jpg";
 
 const ProjectsData = [
   {
@@ -74,9 +81,27 @@ const ProjectsData = [
     title: "Qrest",
     text: "Qrest software development company website",
     techs: ["Next Js", "Typescript", "Tailwind Css"],
-    visit: "https://qrest-qtnj.vercel.app/",
+    visit: "https://www.qrest.ng/",
     source: "https://github.com/ejim11/qrest",
     imgs: [qrest1, qrest2, qrest3, qrest4],
+  },
+  {
+    id: "91",
+    title: "VendorizeMe Web App",
+    text: "VendorizeMe web app",
+    techs: ["Php", "Html", "Css"],
+    visit: "https://vendorizeme.us/",
+    source: "",
+    imgs: [vendorizeme1, vendorizeme2, vendorizeme3, vendorizeme4],
+  },
+  {
+    id: "51",
+    title: "VendorizeMe App",
+    text: "VendorizeMe app for vendors to manage their business on the go",
+    techs: ["React native", "Nest js", "Prisma DB"],
+    visit: "https://onelink.to/9fpwgu",
+    source: "",
+    imgs: [venapp1, venapp2, venapp3],
   },
   {
     id: "1",
@@ -96,13 +121,32 @@ const ProjectsData = [
     source: "",
     imgs: [brackifi1, brackifi2, brackifi3, brackifi4],
   },
+
+  {
+    id: "52",
+    title: "Nich Fashion",
+    text: "Nich fashion is an e-commerce web app for fashionable wears",
+    techs: ["Next Js", "Typescript", "Tailwind Css", "Nest js", "Postgresql"],
+    visit: "https://www.nich-thebrandedwears.com/",
+    source: "https://github.com/ejim11/nich-fashion",
+    imgs: [nich1, nich2, nich3, nich4],
+  },
+  {
+    id: "4",
+    title: "Omalicha Kitchen",
+    text: "Omalicha Kitchen is an african restaurant in Texas, USA.",
+    techs: ["Typescript", "Next js", "Tailwind Css"],
+    visit: "https://www.omalichakitchen.com/",
+    source: "https://github.com/ejim11/Omalicha-kitchen",
+    imgs: [oma1, oma2, oma3, oma4, oma5, oma6],
+  },
   {
     id: "6",
     title: "Herbology",
     text: "Herbology is a web app for a company that sells medicinal herbs",
     techs: ["Next Js", "Typescript", "Tailwind Css"],
-    visit: "https://www.myherbology.net/",
-    source: "https://github.com/ejim11/herbology",
+    visit: "https://herbology.vercel.app/",
+    source: "",
     imgs: [herb1, herb2, herb3, herb4, herb5, herb6, herb7],
   },
   {
@@ -114,62 +158,44 @@ const ProjectsData = [
     source: "",
     imgs: [ticketHive1, ticketHive2, ticketHive3, ticketHive4, ticketHive5],
   },
-  {
-    id: "4",
-    title: "Omalicha Kitchen",
-    text: "Omalicha Kitchen is an african restaurant in Texas, USA.",
-    techs: ["Typescript", "Next js", "Tailwind Css"],
-    visit: "https://omalicha-kitchen.vercel.app/",
-    source: "https://github.com/ejim11/Omalicha-kitchen",
-    imgs: [oma1, oma2, oma3, oma4, oma5, oma6],
-  },
-  {
-    id: "5",
-    title: "Nich Fashion",
-    text: "Nich fashion is an e-commerce web app for fashionable wears",
-    techs: ["Next Js", "Typescript", "Tailwind Css", "Nest js", "Postgresql"],
-    visit: "https://nich-fashion.vercel.app/",
-    source: "https://github.com/ejim11/nich-fashion",
-    imgs: [nich1, nich2, nich3, nich4],
-  },
 
-  {
-    id: "7",
-    title: "Brackifi Investor",
-    text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
-    techs: [
-      "Next js",
-      "Tailwind Css",
-      "Reduxjs/toolkit",
-      "Node js",
-      "Mongo DB",
-    ],
-    visit: "https://www.brackifi-investor.io",
-    source: "",
-    imgs: [
-      brackifiInvestor1,
-      brackifiInvestor2,
-      brackifiInvestor3,
-      brackifiInvestor4,
-    ],
-  },
-  {
-    id: "8",
-    title: "Note taker",
-    text: "Note taker is a simple note taking app that stores your notes per day and in different custom categories.",
-    techs: ["Flutter", "Riverpod"],
-    visit:
-      "https://drive.google.com/drive/folders/14ucSTPU16q01iskJt4xWahWBn3KgEn0K?usp=drive_link",
-    source: "https://github.com/ejim11/note-taker",
-    imgs: [
-      notetaker1,
-      notetaker2,
-      notetaker3,
-      notetaker4,
-      notetaker5,
-      notetaker6,
-    ],
-  },
+  // {
+  //   id: "7",
+  //   title: "Brackifi Investor",
+  //   text: "Brackifi is a hedge fund that manages the assets of investors ensuring growth in investment.",
+  //   techs: [
+  //     "Next js",
+  //     "Tailwind Css",
+  //     "Reduxjs/toolkit",
+  //     "Node js",
+  //     "Mongo DB",
+  //   ],
+  //   visit: "https://www.brackifi-investor.io",
+  //   source: "",
+  //   imgs: [
+  //     brackifiInvestor1,
+  //     brackifiInvestor2,
+  //     brackifiInvestor3,
+  //     brackifiInvestor4,
+  //   ],
+  // },
+  // {
+  //   id: "8",
+  //   title: "Note taker",
+  //   text: "Note taker is a simple note taking app that stores your notes per day and in different custom categories.",
+  //   techs: ["Flutter", "Riverpod"],
+  //   visit:
+  //     "https://drive.google.com/drive/folders/14ucSTPU16q01iskJt4xWahWBn3KgEn0K?usp=drive_link",
+  //   source: "https://github.com/ejim11/note-taker",
+  //   imgs: [
+  //     notetaker1,
+  //     notetaker2,
+  //     notetaker3,
+  //     notetaker4,
+  //     notetaker5,
+  //     notetaker6,
+  //   ],
+  // },
 ];
 
 export default ProjectsData;

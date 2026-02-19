@@ -19,6 +19,7 @@ const TechStack = () => {
     "Firebase",
     "Mongo db",
     "Postgresql",
+    "Prisma DB",
   ];
   return (
     <div

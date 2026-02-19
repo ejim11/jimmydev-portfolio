@@ -4,10 +4,11 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { registrationOption } from "@/utils/inputValidator";
 import InputComponent from "./InputComponent";
 import { sendMessageToMe } from "@/service/contactMeService";
-import { FallingLines } from "react-loader-spinner";
+// import { FallingLines } from "react-loader-spinner";
 import { toastError, toastSuccess } from "@/utils/toastFuncs";
 import { FaRegCircleCheck } from "react-icons/fa6";
 import { LuBadgeAlert } from "react-icons/lu";
+import { FallingLines } from "react-loader-spinner";
 
 type FormData = {
   fullName: string;
@@ -65,14 +66,14 @@ const ContactForm = () => {
       setIsLoading(false);
       toastSuccess(
         "Message sent successfully!",
-        <FaRegCircleCheck className="text-[rgba(30,129,176)] w-[2.2rem] h-[2.2rem]" />
+        <FaRegCircleCheck className="text-[rgba(30,129,176)] w-[2.2rem] h-[2.2rem]" />,
       );
     } catch (err) {
       console.log(err);
       setIsLoading(false);
       toastError(
         "Something went wrong, Please try again!",
-        <LuBadgeAlert className="text-color-red w-[2.2rem] h-[2.2rem]" />
+        <LuBadgeAlert className="text-color-red w-[2.2rem] h-[2.2rem]" />,
       );
     }
   };
